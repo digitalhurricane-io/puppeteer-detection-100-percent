@@ -1,4 +1,4 @@
-# Detect Puppeteer With 100% Accurracy
+# Detect Puppeteer With 100% Accuracy
 
 This is an example of how to detect puppeteer with 100% accuracy.
 
