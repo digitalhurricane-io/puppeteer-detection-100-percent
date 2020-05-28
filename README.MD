@@ -3,7 +3,7 @@
 This is an example of how to detect puppeteer with 100% accuracy.
 
 By replacing a native browser function which puppeteer uses, in this case, document.querySelector, we can
-throw an error to detect the script being run.
+create an error to detect the script being run.
 
 You can see this line:
 https://github.com/puppeteer/puppeteer/blob/7eab7f8dd9838489432882bedee5a9d3df66aa2c/src/ExecutionContext.ts#L24
