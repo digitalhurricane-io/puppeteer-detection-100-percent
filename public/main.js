@@ -5,7 +5,7 @@
 
 function myBotCheck() {
     let err = new Error('test err');
-    console.log(err.stack);
+    console.log('err.stack: ', err.stack);
     if (err.stack.toString().includes('puppeteer')) {
         document.getElementById('yesOrNo').innerHTML = 'Yes';
     }
